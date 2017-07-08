@@ -43,7 +43,6 @@ alias g='git'
 alias ga='git add'
 alias gaa='git add --all'
 alias gapa='git add --patch'
-alias gau='git add --update'
 
 alias gb='git branch'
 alias gba='git branch -a'
@@ -238,4 +237,4 @@ alias gupv='git pull --rebase -v'
 alias glum='git pull upstream master'
 
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
-alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]"'
+alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip--"'
